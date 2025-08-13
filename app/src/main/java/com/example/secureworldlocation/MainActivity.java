@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
     private void sendLocationToAPI(double latitude, double longitude) {
         new Thread(() -> {
             try {
-                URL url = new URL("https://adsapi.secureworldme.com/api/bike/CreateBikeLocation");
+                URL url = new URL("Your_Api_Url");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
                 conn.setRequestMethod("POST");
