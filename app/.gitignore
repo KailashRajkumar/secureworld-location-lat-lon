@@ -1,1 +1,25 @@
-/build
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration files
+local.properties
+
+# IntelliJ / Android Studio files
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# Android generated files
+captures/
+output.json
+
+# Keystore files (DO NOT SHARE REAL ONES)
+*.jks
+*.keystore
+
+# Misc
+.DS_Store
